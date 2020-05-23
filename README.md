@@ -8,7 +8,7 @@ RUN app
 make run
 ```
 
-Use incsomnia to view documentation [Documentation here](./Insomnia_2020-05-23.json)
+Use Insomnia to view documentation [Documentation here](./Insomnia_2020-05-23.json)
 
 GET all todos
 -------------
