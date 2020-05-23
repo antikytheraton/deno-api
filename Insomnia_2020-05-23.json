@@ -1,0 +1,168 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-05-23T18:02:00.508Z",
+    "__export_source": "insomnia.desktop.app:v7.1.1",
+    "resources": [
+        {
+            "_id": "req_6f78e659312a45008dee39880bc175eb",
+            "authentication": {},
+            "body": {},
+            "created": 1590255665909,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1590256241444,
+            "method": "GET",
+            "modified": 1590256278988,
+            "name": "All Todos",
+            "parameters": [],
+            "parentId": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ HOST  }}/todos",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "created": 1563549949324,
+            "description": "",
+            "modified": 1590255562424,
+            "name": "Deno",
+            "parentId": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_7a5ae60957c74bbbaf64cd449d4d1370",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"Finish readding The Pragmatic Programmer\",\n\t\"completed\": false\n}"
+            },
+            "created": 1590256048126,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_1541198683d44b9e96e9eea82e650635",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1590256241419,
+            "method": "POST",
+            "modified": 1590256281451,
+            "name": "New Todo",
+            "parameters": [],
+            "parentId": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ HOST  }}/todos",
+            "_type": "request"
+        },
+        {
+            "_id": "req_a033558bfd1c43439b3ff8e200fdea21",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"Python\",\n\t\"completed\": true\n}"
+            },
+            "created": 1590256152852,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_092fb3c5c0034b3ca53460ab3711a52f",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1590256152852,
+            "method": "PUT",
+            "modified": 1590256227011,
+            "name": "Update todo",
+            "parameters": [],
+            "parentId": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ HOST  }}/todos/3",
+            "_type": "request"
+        },
+        {
+            "_id": "req_763f85357db44597932661704a0ca258",
+            "authentication": {},
+            "body": {},
+            "created": 1590256241394,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1590256152802,
+            "method": "DELETE",
+            "modified": 1590256532687,
+            "name": "Delete todo",
+            "parameters": [],
+            "parentId": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ HOST  }}/todos/11",
+            "_type": "request"
+        },
+        {
+            "_id": "env_42e41ceb4b3336bb43f0bfe1cf161afadc592af8",
+            "color": null,
+            "created": 1563549949356,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1563549949356,
+            "modified": 1563549949356,
+            "name": "Base Environment",
+            "parentId": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_42e41ceb4b3336bb43f0bfe1cf161afadc592af8",
+            "cookies": [],
+            "created": 1563549949359,
+            "modified": 1563549949359,
+            "name": "Default Jar",
+            "parentId": "wrk_4e1e7fab62194652bf2a891acf422533",
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "env_d71f0be8edab4540ba9002874ec6e2ec",
+            "color": null,
+            "created": 1590255578660,
+            "data": {
+                "HOST": "http://localhost:5000"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "HOST"
+                ]
+            },
+            "isPrivate": false,
+            "metaSortKey": 1590255578660,
+            "modified": 1590255640682,
+            "name": "LOCAL",
+            "parentId": "env_42e41ceb4b3336bb43f0bfe1cf161afadc592af8",
+            "_type": "environment"
+        }
+    ]
+}

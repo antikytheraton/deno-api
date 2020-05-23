@@ -4,5 +4,5 @@ run:
 	deno run \
 	--allow-read=${FILE_PATH} \
 	--allow-write=${FILE_PATH} \
-	--allow-net \
-	server.ts
+	--allow-net=:5000 \
+	./server.ts
